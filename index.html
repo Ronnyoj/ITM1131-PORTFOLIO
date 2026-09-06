@@ -75,10 +75,12 @@
                     display: flex;
                     gap: 20px;
                 }
+
                 figure {
                     margin: 0;
                     text-align: center;
                 }
+
                 img {
                     width: 200px;
                     height: 200px;
@@ -90,18 +92,36 @@
                     <img src="Learn coding.jpg" alt="Learn coding the right way" width="200" height="200">
                     <figcaption>Learn coding the right way</figcaption>
                 </figure>
-            <figure>
-                <img src="coding inportance.jpg" alt="Why coding is importand" width="200" height="200">
-                <figcaption>Why coding is importand</figcaption>
-            </figure>
+                <figure>
+                    <img src="coding inportance.jpg" alt="Why coding is importand" width="200" height="200">
+                    <figcaption>Why coding is importand</figcaption>
+                </figure>
         </section>
         <nav>
             <a href="Learn coding.jpg" open>LEARN CODING</a>
             <a href="http://www.html.com">HTML</a>
         </nav>
     </main>
+    <section>
+        <form>
+            <navigation>
+                <h2 style="color: red;">Contact Details</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" minlength="10" required></textarea><br>
+
+                <input type="submit" value="Submit">
+            </navigation>
+        </form>
+    </section><br>
 
     <footer>&copy; 2026 Ojandu Ronny. All rights reserved</footer>
+
 </body>
 
 </html>
