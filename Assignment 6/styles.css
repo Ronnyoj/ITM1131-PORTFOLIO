@@ -1,0 +1,144 @@
+body {
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+header,
+main,
+form,
+footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    font-style: normal;
+    background-color: none;
+    color: indigo;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#about-heading {
+    color: rgb(5, 5, 24);
+    text-align: center;
+}
+
+#background-heading {
+    color: green;
+}
+
+#contact-heading {
+    color: red;
+}
+
+#about p,
+#background p {
+    text-align: justify;
+}
+
+table,
+th,
+td {
+    border: 3pt solid blue;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.4rem 0.8rem;
+    text-align: left;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+   
+form fieldset {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 480px;
+}
+
+form legend {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-muted);
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    background-color: #d8e9fa;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
+}
+
+form textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    align-self: flex-start;
+    padding: 0.65rem 1.5rem;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    border: solid 0cap color rgb(208, 232, 240);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(68, 168, 102);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+}
